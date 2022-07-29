@@ -1,0 +1,15 @@
+.selectTabBtn {
+  border-width: 0px 0px 2px 0px;
+  border-color: #fec653;
+  background-color: transparent;
+  font-size: 20px;
+  outline: none;
+  color: #fec653;
+  font-weight: bold;
+}
+.tabBtn {
+  background-color: transparent;
+  border-width: 0px;
+  color: #ffffff80;
+  font-weight: 600;
+}

@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+}
+body {
+  box-sizing: border-box;
+}
+.container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  height: 100vh;
+}
+.displayImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.display {
+  width: 45%;
+  margin: 30px;
+}
+.tabContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.tabStyle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  color: #ffffff;
+  list-style-type: none;
+}
+.thumbnailContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.thumbnailStyle {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+  margin-right: 15px;
+}
+.card {
+  width: 25%;
+  margin-top: 50px;
+}
+.winningCard {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  height: 480px;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  color: #ffffff;
+}
+.trophyLogo {
+  height: 100px;
+}
+.score {
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.resetBtn {
+  background-color: #cf60c8;
+  border-width: 0px;
+  color: #ffffff;
+  outline: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 3px;
+  padding: 5px;
+}
+.resetLogo {
+  height: 15px;
+}
+
+@media all and (max-width: 992px) {
+  .winningCard {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+    height: 523px;
+    background-size: cover;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: #ffffff;
+  }
+  .thumbnailStyle {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .card {
+    width: 40%;
+  }
+}
